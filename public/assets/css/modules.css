@@ -391,8 +391,16 @@ ul.icons {
 
         #main > section.one {
             background-color: #81918E;
-            background-image: url("../../images/banner.jpg");
+            background: url("../../images/videoplayback.mp4");
         }
+        #myVideo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            z-index: -1;
+          }
 
         #main > section.two {
             background-color: #f5fafa;
